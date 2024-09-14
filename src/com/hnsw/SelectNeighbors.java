@@ -23,7 +23,7 @@ public class SelectNeighbors {
    * distributed system. Again, this is assuming that after SelectNeighbors() has fulfilled
    * its purpose, the return type and value are not dynamically used again. LMK if I am wrong!
    */
-  public Vector[] SelectNeighbors(Vector base, List<Vector> candidates, int numNeighbors, int order) {
+  public Vector[] NearestNeighbor(Vector base, List<Vector> candidates, int numNeighbors, int order) {
 
     if (candidates.isEmpty()) {
       return null;

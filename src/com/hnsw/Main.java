@@ -11,7 +11,7 @@ public class Main {
     Vector base = new Vector(new double[]{50.0, 50.0, 50.0}, "BaseVector");
     SelectNeighbors sn = new SelectNeighbors();
 
-    Vector[] closestNeighbors = sn.SelectNeighbors(base, candidates, 5, 2);
+    Vector[] closestNeighbors = sn.NearestNeighbor(base, candidates, 5, 2);
 
     System.out.println("Closest Neighbors:");
     for (Vector vec : closestNeighbors) {
