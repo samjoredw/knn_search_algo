@@ -13,7 +13,7 @@ Hierarchical Navigable Small World (HNSW) is an advanced algorithm designed for 
 ## Run
 
 $ #mkdir/cd/...  
-$ git clone  
+$ git clone https://github.com/samjoredw/hierarchical_nsw.git  
 $ cd hierarchical_nsw  
 $ javac -d out src/com/hnsw/*.java  
 $ java -cp out com.hnsw.Main  
