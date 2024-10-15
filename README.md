@@ -1,8 +1,8 @@
-# HierarchicalNSW
+# K-Nearest Neighbor Search Algorithm
 
 ## Overview
 
-HierarchicalNSW is my take on the Hierarchical Navigable Small World algorithm (coded in Java), which is used for efficient approximate nearest neighbor (ANN) searches. This project demonstrates the use of HNSW for quickly finding the nearest vectors in a high-dimensional space, and includes a sample implementation of K Nearest Neighbors search methods.
+KNN Search is my take on one of the many algorithms behind the Hierarchical Navigable Small World data structure (coded in Java), which is used for efficient approximate nearest neighbor (ANN) searches on vector datasets. This project demonstrates the use of a KNNS algorithm in HNSW data structures for quickly finding the nearest vectors in a high-dimensional space, and includes a sample implementation of K Nearest Neighbors search methods.
 
 ## Background
 
